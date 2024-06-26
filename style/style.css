@@ -1,0 +1,36 @@
+/*Colores para el sitio*/
+:root {
+    --color__primario: black;
+    --color__secundario: white;
+    --color__terciario: #2b2b2b;
+}
+
+/*navegación*/
+nav {
+    background: var(--color__terciario);
+    line-height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: var(--color__secundario);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 10px 40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color: var(--color__secundario);
+    font-size: 17px;
+}
