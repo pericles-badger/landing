@@ -2,9 +2,23 @@
 :root {
     --color__primario: black;
     --color__secundario: white;
-    --color__terciario: #2b2b2b;
+    --color__terciario: #464646;
+    --color__hover: #a1a1a1;  
 }
 
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zeyada&display=swap');
+
+/*css reset*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
 /*navegación*/
 nav {
     background: var(--color__terciario);
@@ -17,20 +31,36 @@ label.logo {
     font-size: 35px;
     line-height: 80px;
     padding: 10px 40px;
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav ul {
     float: right;
-    margin-right: 20px;
-    line-height: 40px;
+    margin-right: 40px;
+    line-height: 80px;
 }
 
 nav ul li {
     display: inline-block;
     line-height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 20px;
+    
 }
 
 nav ul li a {
     color: var(--color__secundario);
-    font-size: 17px;
+    font-size: 22px;
+    margin:  0 7px;
+
 }
+
+a:hover {
+    background-color: var(--color__hover);
+    transition: .5s;
+}
+
