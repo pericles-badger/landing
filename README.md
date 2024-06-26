@@ -30,4 +30,5 @@
 ### Para actualizar el repo
   - git add                                                                      (pone las actualizaciones en staging)
   - git commit -m "nombre del repo actualizdo"                                   (Nombra la actualización)
-  - git push -u gh-pages                                                         (sube la actualización)
+  - git push -u origin gh-pages                                                  (sube la actualización)
+
