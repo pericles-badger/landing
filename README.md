@@ -28,7 +28,7 @@
   - hacemos click en el URL proporcionado.
 
 ### Para actualizar el repo
-  - git add                                                                      (pone las actualizaciones en staging)
+  - git add .                                                                     (pone las actualizaciones en staging)
   - git commit -m "nombre del repo actualizdo"                                   (Nombra la actualización)
   - git push -u origin gh-pages                                                  (sube la actualización)
 
